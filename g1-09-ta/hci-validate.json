@@ -1,0 +1,11 @@
+{
+  "root": true,
+  "extends": ["html-validate:document", "html-validate:recommended"],
+  "rules": {
+    "require-sri": "off",
+    "no-trailing-whitespace": "off",
+    "void-style": ["error", { "style": "selfclosing" }],
+    "no-raw-characters": "error",
+    "wcag/h63": "off"
+  }
+}
