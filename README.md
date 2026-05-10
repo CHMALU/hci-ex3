@@ -1,6 +1,28 @@
 # HCI Exercise 3 — Thinking Aloud Test
 **Group G1-09 | alza.at | HCI SS 2026**
 
+## Current status
+
+Tests done (2026-05-08). Now in analysis + report writing phase.
+
+**Pending:**
+- [ ] Watch your tester's recording and note problems/positives in `data-ta.xlsx`
+- [ ] Fill in section 3.3 of `ta.html` with your tester's data
+- [ ] Fill in `g1-09-ta-full-videos/consent/users.html` with your tester's name/alias
+- [ ] Scan/photo consent forms → `g1-09-ta-full-videos/consent/tp[X]-consent.pdf` → push to repo
+- [ ] Scan background + feedback questionnaires → `g1-09-ta/bq/` and `g1-09-ta/fq/`
+- [ ] Prepare USB stick: download OBS recordings from Google Drive + copy DJI files from Dawid → put into `g1-09-ta-full-videos/session-videos/` and `external-videos/`
+- [ ] Write report sections (Executive Summary, Introduction, findings analysis)
+- [ ] Extract video clips for top 3 positives + top 5 problems → `g1-09-ta/videos/`
+- [ ] Presentation slides → `g1-09-ta/presentation/g1-09-ta-slides.pptx`
+
+**Who has what:**
+- External video recordings (DJI): Dawid — in `g1-09-ta-full-videos/external-videos/` (NOT in git, too large)
+- Session recordings (OBS): Google Drive — https://drive.google.com/drive/folders/1JMPyzQlClZbJ3457T1XaM_4ivU3aFHoi?hl=pl
+- Signed consent forms: ?
+
+---
+
 ## Repo structure
 
 ```
@@ -22,7 +44,27 @@ g1-09-ta/               submission folder (zip this for TeachCenter)
   images/               test room photos + browser screenshot
   videos/               video clips illustrating findings (max 20s, max 10MB each)
   presentation/         g1-09-ta-slides.pptx
+
+g1-09-ta-full-videos/   USB stick folder (NOT zipped, hand in physically at M3)
+  consent/
+    users.html          mapping of tp aliases to real names (fill in your tester!)
+    tp1-consent.pdf     signed consent forms (scan as PDF, push to repo)
+    ...
+    tp5-consent.pdf
+  external-videos/      DJI face camera recordings — NOT in git (too large, ~10 GB each)
+    tp1-ext.mp4         pilot (done, H.264)
+    tp2-ext.mp4 ... tp5-ext.mp4
+  session-videos/       OBS screen recordings — NOT in git
+    tp1.mp4 ... tp5.mp4
 ```
+
+## USB stick checklist (hand in physically at M3)
+
+- Format: NTFS or exFAT, label: `HCI 2026 G1-09`
+- All videos: MP4, H.264, AAC audio, 720p–1080p
+- `external-videos/` — 5 DJI recordings (tp1–tp5-ext.mp4)
+- `session-videos/` — 5 OBS recordings (tp1–tp5.mp4)
+- `consent/` — 5 signed consent PDFs + users.html
 
 ## Before tests
 
