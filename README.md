@@ -19,7 +19,6 @@ Tests done (2026-05-08). Now in analysis + report writing phase.
 **Who has what:**
 - External video recordings (DJI): Dawid — in `g1-09-ta-full-videos/external-videos/` (NOT in git, too large)
 - Session recordings (OBS): Google Drive — https://drive.google.com/drive/folders/1JMPyzQlClZbJ3457T1XaM_4ivU3aFHoi?hl=pl
-- Signed consent forms: ?
 
 ---
 
