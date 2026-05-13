@@ -8,9 +8,9 @@ Tests done (2026-05-08). Now in analysis + report writing phase.
 **Pending:**
 - [ ] Watch your tester's recording and note problems/positives in `data-ta.xlsx`
 - [ ] Fill in section 3.3 of `ta.html` with your tester's data
-- [ ] Fill in `g1-09-ta-full-videos/consent/users.html` with your tester's name/alias
-- [ ] Scan/photo consent forms → `g1-09-ta-full-videos/consent/tp[X]-consent.pdf` → push to repo
-- [ ] Scan background + feedback questionnaires → `g1-09-ta/bq/` and `g1-09-ta/fq/`
+- [x] Fill in `g1-09-ta-full-videos/consent/users.html` with your tester's name/alias
+- [x] Scan/photo consent forms → `g1-09-ta-full-videos/consent/tp[X]-consent.pdf` → push to repo
+- [x] Scan background + feedback questionnaires → `g1-09-ta/bq/` and `g1-09-ta/fq/`
 - [ ] Prepare USB stick: download OBS recordings from Google Drive + copy DJI files from Dawid → put into `g1-09-ta-full-videos/session-videos/` and `external-videos/`
 - [ ] Write report sections (Executive Summary, Introduction, findings analysis)
 - [ ] Extract video clips for top 3 positives + top 5 problems → `g1-09-ta/videos/`
