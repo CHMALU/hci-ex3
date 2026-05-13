@@ -7,7 +7,7 @@ Tests done (2026-05-08). Now in analysis + report writing phase.
 
 **Pending:**
 - [ ] Watch your tester's recording and note problems/positives in `data-ta.xlsx`
-- [ ] Fill in section 3.3 of `ta.html` with your tester's data
+- [x] Fill in section 3.3 of `ta.html` with your tester's data
 - [x] Fill in `g1-09-ta-full-videos/consent/users.html` with your tester's name/alias
 - [x] Scan/photo consent forms → `g1-09-ta-full-videos/consent/tp[X]-consent.pdf` → push to repo
 - [x] Scan background + feedback questionnaires → `g1-09-ta/bq/` and `g1-09-ta/fq/`
