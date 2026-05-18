@@ -1,5 +1,16 @@
 # Ex3a Requirements Checklist
 
+## Outstanding before submission (highest priority)
+1. **Generate 8 poster JPGs** for the videos embedded in §4.3 and §4.5 — already referenced via `poster=` attribute, files just need to be extracted from the mp4s and dropped into `videos/`
+2. **§1 Executive Summary** — still placeholder
+3. **§4.2 First Impressions** — TP1–TP4 cells empty (only TP5 quotes)
+4. **§4.7 Interviews** — placeholder text, needs real per-user summaries
+5. **§4.8 Feedback Questionnaire** — only 3 of ~14 questions filled
+6. **Test room photo** for §3.4 (`images/testroom01.jpg`) — Fabian + mirror, planned for Tuesday
+7. **Strip all `{instruction}` blocks** before submitting (~54 remain)
+8. **Validate HTML** and check CC BY 4.0 statement is in place
+
+
 ## Test Users
 - [x] 5 users total: 1 pilot + 4 real (TP1–TP5 done)
 - [x] Pilot: from the middle of the user group (not the extremes)
@@ -55,10 +66,12 @@
 - [x] Inform user that personal data will be deleted after 1 year
 
 ## Analysis
-- [ ] Each team member rates severity (0–4) and positivity (0–4) individually — **DC done, SJ/LR/FM partially done, group ranking meeting still needed**
-- [ ] Calculate mean to 2 decimal places — **pending full ratings**
-- [ ] Sort tables in descending order by mean — **pending full ratings**
-- [ ] At least 1 video clip per user who experienced each finding — **only TP1/TP2/TP5 clips exist so far (TP3/TP4 pending from Luca)**
+- [x] Each team member rates severity (0–4) and positivity (0–4) individually — all 4 members rated all findings (SJ, LR, DC, FM)
+- [x] Calculate mean to 2 decimal places — formulas in xlsx, also rendered in tables 7 and 10
+- [x] Sort tables in descending order by mean — done for both Negative and Positive Findings sheets
+- [x] Merge duplicate findings — P1+P4 (PC Builder guides) merged into a single P01 with two clips (TP4 + TP5)
+- [x] Drop borderline findings — N15 "No Storage recommendation" (domain knowledge, Sven) and N18 "No Back Navigation" (could use browser back, Fabian) removed
+- [x] At least 1 video clip per user who experienced each finding — all clips present and renamed
 
 ## Video Clips
 - [x] MP4, H.264 + AAC, max FullHD resolution
@@ -66,8 +79,8 @@
 - [x] **Max 10 MB (10,000,000 bytes)** (all clips verified OK)
 - [x] Faces blurred (webcam overlay blurred on all TP5 clips; TP1/TP2 clips by Fabian/Sven — verify their blurring)
 - [x] Temporary naming: `n-tpY-keywords.mp4` / `p-tpY-keywords.mp4`
-- [ ] Final naming after ranking: `nXX-tpY-keywords.mp4` / `pXX-tpY-keywords.mp4` — **pending group ranking meeting**
-- [ ] Poster image (JPEG) for each clip used in top 3 positives / top 5 negatives — **none created yet**
+- [x] Final naming after ranking: `nXX-tpY-keywords.mp4` / `pXX-tpY-keywords.mp4` — all 16 negatives (n01–n16) and 7 positives (p01–p07) renamed, xlsx + ta.html refs updated
+- [ ] Poster image (JPEG) for each clip used in top 3 positives / top 5 negatives — **8 posters still missing** (p01-tp4, p01-tp5, p02-tp3, p03-tp4, n01-tp5, n02-tp1, n03-tp5, n04-tp5, n05-tp2 — note p01 has 2 clips so could be 9; `<video poster=...>` already references these `.jpg` paths)
 - [x] Clips extracted from session capture video
 
 ## Report (`ta.html`)
@@ -79,7 +92,7 @@
 - [ ] Remove all `{instructions in curly brackets}` before submission — **54 still present**
 - [ ] Validate HTML
 - [ ] All links local (relative), report is fully self-contained — **asset links OK, but video/poster files missing**
-- [ ] Top 3 positives and top 5 negatives use `<video>` element with `poster` attribute — **still template content, 1 video missing poster**
+- [x] Top 3 positives and top 5 negatives use `<video>` element with `poster` attribute — embeds done in 4.3 and 4.5; `poster` JPGs themselves still need to be generated
 - [] CC BY 4.0 statement at the bottom
 
 ## Report Content
@@ -97,10 +110,10 @@
 - [x] **3.9 Data Collection** — how data and data protection are handled — done
 - [x] **4.1 Task Completion** — overview of task completion rates — done
 - [ ] **4.2 First Impressions** — summary for each TP after Task 1 — TP1/TP2 partial, TP3/TP4/TP5 empty (need Luca's data)
-- [ ] **4.3 Top Positive Findings** — for each: diagnosis, video clip, individual ratings, timestamps, number of users affected, optional quote — still template content, not our findings
-- [ ] **4.4 List of All Positives** — TP5 done, TP1/TP2 missing, ratings incomplete
-- [ ] **4.5 Top Negative Findings** — for each: diagnosis, video clip, individual ratings, timestamps, number of users affected, optional quote, **recommended improvements** — still template content, not our findings
-- [ ] **4.6 List of All Problems** — TP5 done, TP1/TP2/TP3/TP4 missing, ratings incomplete
+- [x] **4.3 Top Positive Findings** — P01 PC Builder (merged TP4+TP5), P02 Search Filters, P03 Cart Preserved — mini-tables, video embeds (Fig 3–5), and descriptive paragraphs all in place
+- [x] **4.4 List of All Positives** — Table 7 fully populated from xlsx (7 findings, all 4 ratings, mean 2dp, linked clips)
+- [x] **4.5 Top Negative Findings** — N01 CAPTCHA Redirect, N02 Comparison Overlap, N03 No PC Feedback, N04 Duplicate Checkout Data, N05 Missing Apple Subcategory — each with diagnosis paragraph, embedded video (Fig 6–10), and recommendation paragraph
+- [x] **4.6 List of All Problems** — Table 10 fully populated from xlsx (16 findings, all 4 ratings, mean 2dp, linked clips)
 - [ ] **4.7 Interviews** — summary of post-test interview comments and suggestions — template text with wrong aliases (Stuart/Silvia/Sally), need real content
 - [ ] **4.8 Feedback Questionnaires** — summary of questionnaire responses — only 3 of ~14 questions filled
 - [x] Background questionnaire scans as PDF: `bq/tp1-bq.pdf`, `bq/tp2-bq.pdf`, ...

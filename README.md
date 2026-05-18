@@ -3,7 +3,23 @@
 
 ## Current status
 
-Tests done (2026-05-08). Now in analysis + report writing phase.
+Tests done (2026-05-08). Analysis essentially complete. Final-stretch report writing.
+
+**Done so far:**
+- All 4 members rated all findings (SJ, LR, DC, FM) in `data-ta.xlsx`
+- Duplicate P1+P4 merged into single P01 (PC Builder, TP4+TP5)
+- N15 (No Storage recommendation, domain knowledge) and N18 (No Back Navigation, browser-level) dropped
+- Findings sorted by mean and renumbered (n01–n16, p01–p07)
+- Video clips renamed to final `nXX-tpY-keywords.mp4` / `pXX-tpY-keywords.mp4` scheme
+- `ta.html` sections 4.3, 4.4, 4.5, 4.6 fully populated from xlsx (top 3 positives, full positive table, top 5 problems with diagnosis + recommendation, full problem table)
+
+**Still to do (priority order):**
+1. Generate 8 poster JPGs for the embedded videos in §4.3 and §4.5
+2. Executive Summary (§1)
+3. First Impressions for TP1–TP4 (§4.2)
+4. Interviews (§4.7) and Feedback Questionnaires (§4.8)
+5. Test room photo (`images/testroom01.jpg`) — Fabian + mirror, Tuesday
+6. Strip all `{instruction}` placeholders, validate HTML, zip and upload
 
 **For the detailed checklist of what is done and what is still pending, see [`ex3a-requirements.md`](ex3a-requirements.md).**
 
