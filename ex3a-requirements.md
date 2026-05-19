@@ -2,13 +2,9 @@
 
 ## Outstanding before submission (highest priority)
 1. **Generate 8 poster JPGs** for the videos embedded in §4.3 and §4.5 — already referenced via `poster=` attribute, files just need to be extracted from the mp4s and dropped into `videos/`
-2. **§1 Executive Summary** — still placeholder
-3. **§4.2 First Impressions** — TP1–TP4 cells empty (only TP5 quotes)
-4. **§4.7 Interviews** — placeholder text, needs real per-user summaries
-5. **§4.8 Feedback Questionnaire** — only 3 of ~14 questions filled
-6. **Test room photo** for §3.4 (`images/testroom01.jpg`) — Fabian + mirror, planned for Tuesday
-7. **Strip all `{instruction}` blocks** before submitting (~54 remain)
-8. **Validate HTML** and check CC BY 4.0 statement is in place
+2. **§4.8 Feedback Questionnaire** — only 3 of ~14 questions filled
+3. **Strip all `{instruction}` blocks** before submitting (~54 remain)
+4. **Validate HTML** and check CC BY 4.0 statement is in place
 
 
 ## Test Users
@@ -49,7 +45,7 @@
 - [x] MP4, H.264 + AAC, FullHD 1920×1080, landscape — verify format of external videos
 - [x] Resolution: min 1280×720, max 1920×1080 (all tp1–tp5-ext.mp4 confirmed 1920×1080)
 - [x] Turn off camera overlays (date, time, mode, etc.) — verify visually
-- [ ] Take photos of the test room with all equipment set up (JPEG) — **MISSING: no testroom photos in images/, only browser-version.png exists**
+- [x] Take photos of the test room with all equipment set up (JPEG) — `images/testroom01.jpg`, `testroom02.jpg`, `testroom03.jpg` added
 
 ## Materials to Prepare
 - [x] `orient.html` — adapted (Dawid as facilitator name confirmed)
@@ -97,24 +93,24 @@
 
 ## Report Content
 - [x] Title info: group number, topic, names of all group members — date set to 20th May 2026
-- [ ] **Executive Summary** (max 25% about procedure, rest about findings) — missing
+- [x] **Executive Summary** (max 25% about procedure, rest about findings) — 4 paragraphs covering procedure, top positives, top problems, closing
 - [x] **3.1 Methodology** — thinking aloud methodology, **at least 2 own literature references** — done (Bar2020, Dum1999, Eri1993)
 - [x] **2 Introduction** — site description and language paragraph done
 - [x] **3.2 User Profiles** — types of users the site targets, their goals and typical tasks — done
 - [x] **3.3 Test Users** — background questionnaire data in table form, fictitious aliases — done
-- [ ] **3.4 Test Environment** — hardware, software version, room, session + external recording description — table + 3 text paragraphs done, only missing testroom photo
+- [x] **3.4 Test Environment** — hardware, software version, room, session + external recording description — table + 3 text paragraphs done, testroom photos added (still need to be linked in the section)
 - [x] **3.5 Training** — what training each user received (interface, domain, thinking aloud) — done (no interface training, TA demo via ta-demo-keith.mp4, no practice round)
 - [x] **3.6 Tasks** — internal task list + task descriptions given to users — done
 - [x] **3.7 Interview Questions** — questions asked at the post-test interview — done (links to appendix)
 - [x] **3.8 Feedback Questionnaire** — the questionnaire given at the end — done (links to appendix)
 - [x] **3.9 Data Collection** — how data and data protection are handled — done
 - [x] **4.1 Task Completion** — overview of task completion rates — done
-- [ ] **4.2 First Impressions** — summary for each TP after Task 1 — TP1/TP2 partial, TP3/TP4/TP5 empty (need Luca's data)
+- [x] **4.2 First Impressions** — tables 5a/5b/5c fully filled for TP1–TP5 (placeholder to be stripped together with the rest)
 - [x] **4.3 Top Positive Findings** — P01 PC Builder (merged TP4+TP5), P02 Search Filters, P03 Cart Preserved — mini-tables, video embeds (Fig 3–5), and descriptive paragraphs all in place
 - [x] **4.4 List of All Positives** — Table 7 fully populated from xlsx (7 findings, all 4 ratings, mean 2dp, linked clips)
 - [x] **4.5 Top Negative Findings** — N01 CAPTCHA Redirect, N02 Comparison Overlap, N03 No PC Feedback, N04 Duplicate Checkout Data, N05 Missing Apple Subcategory — each with diagnosis paragraph, embedded video (Fig 6–10), and recommendation paragraph
 - [x] **4.6 List of All Problems** — Table 10 fully populated from xlsx (16 findings, all 4 ratings, mean 2dp, linked clips)
-- [ ] **4.7 Interviews** — summary of post-test interview comments and suggestions — template text with wrong aliases (Stuart/Silvia/Sally), need real content
+- [x] **4.7 Interviews** — summary paragraphs for TP1 (Emma), TP2 (Lily), TP3 (Chloe), TP4 (Jack), TP5 (Ethan) all written
 - [ ] **4.8 Feedback Questionnaires** — summary of questionnaire responses — only 3 of ~14 questions filled
 - [x] Background questionnaire scans as PDF: `bq/tp1-bq.pdf`, `bq/tp2-bq.pdf`, ...
 - [x] Feedback questionnaire scans as PDF: `fq/tp1-fq.pdf`, `fq/tp2-fq.pdf`, ...
