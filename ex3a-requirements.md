@@ -2,9 +2,8 @@
 
 ## Outstanding before submission (highest priority)
 1. **Generate 8 poster JPGs** for the videos embedded in §4.3 and §4.5 — already referenced via `poster=` attribute, files just need to be extracted from the mp4s and dropped into `videos/`
-2. **§4.8 Feedback Questionnaire** — only 3 of ~14 questions filled
-3. **Strip all `{instruction}` blocks** before submitting (~54 remain)
-4. **Validate HTML** and check CC BY 4.0 statement is in place
+2. **Strip all `{instruction}` blocks** before submitting (~54 remain)
+3. **Validate HTML** and check CC BY 4.0 statement is in place
 
 
 ## Test Users
@@ -111,7 +110,7 @@
 - [x] **4.5 Top Negative Findings** — N01 CAPTCHA Redirect, N02 Comparison Overlap, N03 No PC Feedback, N04 Duplicate Checkout Data, N05 Missing Apple Subcategory — each with diagnosis paragraph, embedded video (Fig 6–10), and recommendation paragraph
 - [x] **4.6 List of All Problems** — Table 10 fully populated from xlsx (16 findings, all 4 ratings, mean 2dp, linked clips)
 - [x] **4.7 Interviews** — summary paragraphs for TP1 (Emma), TP2 (Lily), TP3 (Chloe), TP4 (Jack), TP5 (Ethan) all written
-- [ ] **4.8 Feedback Questionnaires** — summary of questionnaire responses — only 3 of ~14 questions filled
+- [x] **4.8 Feedback Questionnaires** — summary of questionnaire responses 
 - [x] Background questionnaire scans as PDF: `bq/tp1-bq.pdf`, `bq/tp2-bq.pdf`, ...
 - [x] Feedback questionnaire scans as PDF: `fq/tp1-fq.pdf`, `fq/tp2-fq.pdf`, ...
 - [x] Scans only — no photos!
