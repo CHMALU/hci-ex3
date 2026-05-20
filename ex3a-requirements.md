@@ -1,9 +1,11 @@
 # Ex3a Requirements Checklist
 
-## Outstanding before submission (highest priority)
-1. **Generate 8 poster JPGs** for the videos embedded in §4.3 and §4.5 — already referenced via `poster=` attribute, files just need to be extracted from the mp4s and dropped into `videos/`
-2. **Strip all `{instruction}` blocks** before submitting (~54 remain)
-3. **Validate HTML** and check CC BY 4.0 statement is in place
+## Today before 16:00 (TeachCenter upload deadline)
+1. **Finish the presentation** — only `g1-09-ta-slides-STUB.pptx` exists, needs to be filled in and renamed to `g1-09-ta-slides.pptx`
+2. **Pack the zip** `g1-09-ta.zip` (≤500 MB) and upload to TeachCenter
+
+## For tomorrow (M3 hand-in)
+- **Prepare the USB stick** for Ex3b: `g1-09-ta-full-videos/` with `session-videos/`, `external-videos/`, `consent/` subdirs, NTFS/exFAT, 16/32 GB
 
 
 ## Test Users
@@ -75,7 +77,7 @@
 - [x] Faces blurred (webcam overlay blurred on all TP5 clips; TP1/TP2 clips by Fabian/Sven — verify their blurring)
 - [x] Temporary naming: `n-tpY-keywords.mp4` / `p-tpY-keywords.mp4`
 - [x] Final naming after ranking: `nXX-tpY-keywords.mp4` / `pXX-tpY-keywords.mp4` — all 16 negatives (n01–n16) and 7 positives (p01–p07) renamed, xlsx + ta.html refs updated
-- [ ] Poster image (JPEG) for each clip used in top 3 positives / top 5 negatives — **8 posters still missing** (p01-tp4, p01-tp5, p02-tp3, p03-tp4, n01-tp5, n02-tp1, n03-tp5, n04-tp5, n05-tp2 — note p01 has 2 clips so could be 9; `<video poster=...>` already references these `.jpg` paths)
+- [x] Poster image (JPEG) for each clip used in top 3 positives / top 5 negatives — all 9 posters added by Sven (p01-tp4, p01-tp5, p02-tp3, p03-tp4, n01-tp5, n02-tp1, n03-tp5, n04-tp5, n05-tp2)
 - [x] Clips extracted from session capture video
 
 ## Report (`ta.html`)
@@ -84,11 +86,11 @@
 - [] 2 spaces for indentation, no Tab characters
 - [] Keep `<section>` structure and `<section id>` attributes intact
 - [] Do not modify `report.css`, do not add `<style>` elements
-- [ ] Remove all `{instructions in curly brackets}` before submission — **54 still present**
-- [ ] Validate HTML
-- [ ] All links local (relative), report is fully self-contained — **asset links OK, but video/poster files missing**
-- [x] Top 3 positives and top 5 negatives use `<video>` element with `poster` attribute — embeds done in 4.3 and 4.5; `poster` JPGs themselves still need to be generated
-- [] CC BY 4.0 statement at the bottom
+- [x] Remove all `{instructions in curly brackets}` before submission — all 50 `<p class="instructions">` blocks stripped
+- [x] Validate HTML — `npx html-validate --config hci-validate.json ta.html` exits 0 (also clean on W3C Nu validator)
+- [x] All links local (relative), report is fully self-contained
+- [x] Top 3 positives and top 5 negatives use `<video>` element with `poster` attribute — embeds done in 4.3 and 4.5, poster JPGs in place
+- [x] CC BY 4.0 statement at the bottom (ta.html:2773-2779)
 
 ## Report Content
 - [x] Title info: group number, topic, names of all group members — date set to 20th May 2026
